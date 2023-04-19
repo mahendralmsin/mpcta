@@ -552,7 +552,7 @@ input[type=tel]:focus {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #131d54;
+  background: #1b203c;
   opacity: 0.8;
 }
 
@@ -689,9 +689,9 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .navigation .navbar .navbar-nav > li > a {
   color: #5C5C5C;
-  padding: 10px 15px;
+  padding: 10px 25px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   transition: 0.3s;
 }
@@ -699,10 +699,14 @@ header .navbar-default .navbar-nav li a:hover {
   color: #000;
   background: transparent;
 }
+.navigation .navbar .navbar-nav > li:last-child > a{
+  padding-right: 0;
+}
 .navigation .navbar .navbar-nav li.active > a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #3f51b5;
 }
+
 .navigation .navbar .dropdown-menu {
   border-radius: 0;
   border: none;
