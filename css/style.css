@@ -82,6 +82,12 @@ blockquote {
   color: #777;
 }
 
+@media (max-width:992px) {
+  main{
+    min-height: 55vh;
+  }
+}
+
 .navbar-toggle .icon-bar {
   background: #3f51b5;
 }
