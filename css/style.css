@@ -310,7 +310,6 @@ input[type=tel]:focus {
   font-weight: 200;
   letter-spacing: 6px;
   margin-top: 0;
-  text-transform: capitalize;
   margin-bottom: 20px;
 }
 @media (max-width:992px) {
