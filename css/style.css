@@ -2146,6 +2146,30 @@ ul.dropdown-menu li {
   background-attachment: fixed;
 }
 
+.card.card-board{
+    box-shadow: 0px 4px 10px rgba(51, 28, 210,0.18);
+    border: 1px solid #ebe8ff;
+    border-radius: 8px;
+    background: linear-gradient(901deg, #ffffff, #ecf2ff);
+}
+.card.card-board .card-body{
+  padding: 2rem 1.5rem;
+}
+.card.card-board.borderT{
+  position: relative;
+}
+.card.card-board.borderT:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  transform: translate(-50%, 0);
+  height: 4px;
+  width: 60px;
+  background: #3F51B5;
+  border-radius: 5px;
+}
+
 .footer {
   background: #F5F5F5;
   text-align: center;
