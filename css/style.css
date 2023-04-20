@@ -278,6 +278,11 @@ input[type=tel]:focus {
 .section-title {
   margin-bottom: 70px;
 }
+@media (max-width:992px) {
+  .section-title {
+    margin-bottom: 0px;
+  }
+}
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
@@ -299,6 +304,7 @@ input[type=tel]:focus {
 .page-title {
   padding: 100px 0;
 }
+
 .page-title .block {
   text-align: center;
 }
@@ -310,11 +316,16 @@ input[type=tel]:focus {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-@media (max-width: 992px) {
-  .page-title .block h1 {
+@media (max-width:992px) {
+  .page-title {
+    padding: 30px 0;
+  }
+  .page-title .block h1{
     font-size: 32px;
+    margin-bottom: 3px;
   }
 }
+
 .page-title .block p {
   color: #fff;
   font-weight: 300;
@@ -689,7 +700,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .navigation .navbar .navbar-nav > li > a {
   color: #5C5C5C;
-  padding: 10px 25px;
+  padding: 10px 20px;
   font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
@@ -704,7 +715,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 @media(max-width: 992px){
   .navigation .navbar .navbar-nav > li:last-child > a {
-    padding-right: 25px;
+    padding-right: 20px;
   }
 }
 .navigation .navbar .navbar-nav li.active > a {
@@ -1258,6 +1269,8 @@ ul.dropdown-menu li {
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: start;
+  text-align: left;
 }
 
 .address-block i {
@@ -1271,6 +1284,10 @@ ul.dropdown-menu li {
   font-size: 33px;
   border: 5px solid #e9e6ff;
   border-radius: 50px;
+}
+
+.address-block li a{
+  color: #212529;
 }
 
 .social-icons {
@@ -2212,6 +2229,16 @@ ul.slick-dots li button {
 ul.slick-dots li.slick-active button{
   color: #4e69ff;
   background: #4e69ff;
+}
+
+.psection{
+  padding: 100px 0;
+}
+
+@media (max-width:992px) {
+  .psection{
+    padding: 30px 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
